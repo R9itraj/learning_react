@@ -1,3 +1,11 @@
+1.//import React from 'react'
+//import ReactDOM from 'react-dom'
+
+2./*const title=React.createElement(
+type,attributes,child_element
+)*/
+
+ex:-
 import React from 'react'
 import ReactDOM from 'react-dom'
 
