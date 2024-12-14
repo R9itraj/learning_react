@@ -1,0 +1,4 @@
+#installing create-react-app
+
+1. npm install -g create-react-app
+2. npm i -g npm update
