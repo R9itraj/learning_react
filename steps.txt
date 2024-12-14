@@ -2,3 +2,9 @@
 
 1. npm install -g create-react-app
 2. npm i -g npm update
+
+#creating react app
+
+3.create-react-app </react app name>
+\_> to remove
+    rm -rf react-is-fun
