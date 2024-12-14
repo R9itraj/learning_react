@@ -28,3 +28,5 @@ ReactDOM.render(
 >>>>>>> ac115581cd2275286dec8c7395153dbd7652250a
   document.getElementById('root')
 )
+
+#use expression while adding boolean or no as props ex-age={30}
