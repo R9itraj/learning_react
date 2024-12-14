@@ -5,7 +5,12 @@ var style={
   backgroundColor:'orange',
   color:'white'
 }
+
+/--ALL OF Component should be capital--/
 class Message extends React.Component{
+  
+  /__Every compont has a render method __/
+
   render(){
     return(
       <div>
