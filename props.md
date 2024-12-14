@@ -9,7 +9,7 @@ class Message extends React.Component{
   render(){
     return(
       <div>
-        <h1>{this.props.msg}</h1>
+###        <h1>{this.props.msg}</h1>
       </div>
     )
   }
@@ -17,6 +17,6 @@ class Message extends React.Component{
 
 
 ReactDOM.render(
-  <Message msg="OutPut From COntainer?"/>,
+###  <Message msg="OutPut From COntainer?"/>,
   document.getElementById('root')
 )
