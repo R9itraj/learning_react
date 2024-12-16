@@ -5,6 +5,7 @@ var style={
   backgroundColor:'orange',
   color:'white'
 }
+
 class Message extends React.Component{
   render(){
     return(
@@ -14,9 +15,29 @@ class Message extends React.Component{
     )
   }
 }
-
+class Calculator extends React.Component{
+  getSum=(num1,num2)=>{
+    return num1+num2;
+  }
+  render(){
+    return(
+      <div>
+        <form action='#'>
+          <input type='text' name="num1?" ></input>
+          <input type='text' name="num2?"></input>
+          <button type="submit">ADD</button>
+        </form>
+        <p>{this.getSum(this.props.num1,this.props.num2)}</p>
+      </div>
+    )
+  }
+}
 
 ReactDOM.render(
-  <Message msg="OutPut From COntainer?"/>,
+  <div>
+    <Message msg="OutPut From COntainer?"/>
+    <Calculator num1="5" num2="10"/>
+  </div>
+  ,
   document.getElementById('root')
 )
